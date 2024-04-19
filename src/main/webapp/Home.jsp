@@ -10,7 +10,7 @@
 <body>
 
 <div class="navbar">
-    <a class = "active" href="home.jsp">Home</a>
+    <a class = "active" href="Home.jsp">Home</a>
     <a href="books.jsp">Books</a>
     <a href="members.jsp">About</a>
     <a href="logout.jsp" style="float:right;">Logout</a>

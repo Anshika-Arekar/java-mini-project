@@ -5,14 +5,14 @@
 <head>
 <meta charset="UTF-8">
 <title>Register for Library System</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="register.css">
 </head>
 <body>
 <div class="container">
     <h2>Register for Library System</h2>
     <form action="registerServlet" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br>
+        <label for="name">Userame:</label>
+        <input type="text" id="username" name="username" required><br>
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required><br>
         <label for="password">Password:</label>
@@ -21,7 +21,7 @@
         <input type="password" id="confirm_password" name="confirm_password" required><br>
         <input type="submit" value="Register">
     </form>
-    <p>Already have an account? <a href="login.jsp">Login here</a></p>
+    <p>Already have an account? <a href="Login.jsp">Login here</a></p>
 </div>
 </body>
 </html>

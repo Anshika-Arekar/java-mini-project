@@ -20,14 +20,34 @@ public class User {
 	@Column
 	private String password;
 	
+	@Column
+	private String email;
+	
 	public User() {
 		super();
 	}
 
-	public User(String username, String password) {
+	public User(String username, String password, String email) {
 		super();
 		this.username = username;
 		this.password = password;
+		this.email = email;
+	}
+	
+	public int getUserID() {
+		return userID;
+	}
+
+	public void setUserID(int userID) {
+		this.userID = userID;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 	public String getUsername() {
